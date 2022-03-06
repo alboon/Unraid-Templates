@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>CryoFall_Boony</Name>
+  <Name>CryoFall_Server</Name>
   <Repository>boonyman/crofall_server_unraid:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/boonyman/crofall_server_unraid</Registry>
   <Network>bridge</Network>
@@ -8,7 +8,7 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/repository/docker/boonyman/crofall_server_unraid</Support>
-  <Project/>
+  <Project>https://wiki.atomictorch.com/CryoFall/Server/Setup</Project>
   <Overview/>
   <Category>GameServers:</Category>
   <WebUI/>
@@ -17,7 +17,7 @@
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs>loadOrNew</PostArgs>
   <CPUset/>
-  <DateInstalled>1646593489</DateInstalled>
+  <DateInstalled>1646598292</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description/>
