@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>CryoFall_Boony</Name>
+  <Repository>boonyman/crofall_server_unraid:latest</Repository>
+  <Registry>https://hub.docker.com/repository/docker/boonyman/crofall_server_unraid</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/repository/docker/boonyman/crofall_server_unraid</Support>
+  <Project/>
+  <Overview/>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/829590/c5e413445ed960ddea65b94c6639a07b9f922112.jpg</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs>loadOrNew</PostArgs>
+  <CPUset/>
+  <DateInstalled>1646593489</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>6000</HostPort>
+        <ContainerPort>6000</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/app/Data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>0000</Value>
+      <Name>UMASK</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Mainport" Target="6000" Default="" Mode="udp" Description="Container Port: " Type="Port" Display="always" Required="false" Mask="false">6000</Config>
+  <Config Name="Data Folder" Target="/app/Data" Default="" Mode="rw" Description="Container Path: " Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="GID" Target="PGID" Default="" Mode="" Description="Container Variable: GID" Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="true" Mask="false">0000</Config>
+  <Config Name="UID" Target="PUID" Default="99" Mode="" Description="Container Variable: UID" Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
+</Container>
