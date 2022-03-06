@@ -9,7 +9,15 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/repository/docker/boonyman/crofall_server_unraid</Support>
   <Project>https://wiki.atomictorch.com/CryoFall/Server/Setup</Project>
-  <Overview/>
+  <Overview>CryoFall is a sci-fi colony simulation survival game set on a forgotten planet in a distant future.&#xD;
+&#xD;
+Join the vast world of CryoFall together with other survivors to rebuild your civilization from scratch. Start with primitive technology and simple tools and use them to progress towards modern industrial might and even beyond, eventually reaching space-age technology only seen in science fiction.&#xD;
+&#xD;
+CryoFall can be played either as a relaxed PvE experience with no competition or as a brutal and unforgiving PvP. Make your choice and join one of many available servers with different game modes or host your own and invite your friends to join you!&#xD;
+&#xD;
+Build your house or a large base together with other players. Dig wells and create farms to sustain basic needs. Build vehicles to explore the world faster. Establish basics of science, all the way from medicine and chemistry to fuel creation and even lithium extraction to create electronic devices. Cook food or prepare drinks to sell them from vending machines in your store.&#xD;
+&#xD;
+Build factories to produce on an industrial scale: Weapons and defense systems, bionic implants to augment yourself, even large war machines and artillery guns to use against the biggest of opponents.</Overview>
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
@@ -17,10 +25,18 @@
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs>loadOrNew</PostArgs>
   <CPUset/>
-  <DateInstalled>1646598292</DateInstalled>
+  <DateInstalled>1646598450</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description/>
+  <Description>CryoFall is a sci-fi colony simulation survival game set on a forgotten planet in a distant future.&#xD;
+&#xD;
+Join the vast world of CryoFall together with other survivors to rebuild your civilization from scratch. Start with primitive technology and simple tools and use them to progress towards modern industrial might and even beyond, eventually reaching space-age technology only seen in science fiction.&#xD;
+&#xD;
+CryoFall can be played either as a relaxed PvE experience with no competition or as a brutal and unforgiving PvP. Make your choice and join one of many available servers with different game modes or host your own and invite your friends to join you!&#xD;
+&#xD;
+Build your house or a large base together with other players. Dig wells and create farms to sustain basic needs. Build vehicles to explore the world faster. Establish basics of science, all the way from medicine and chemistry to fuel creation and even lithium extraction to create electronic devices. Cook food or prepare drinks to sell them from vending machines in your store.&#xD;
+&#xD;
+Build factories to produce on an industrial scale: Weapons and defense systems, bionic implants to augment yourself, even large war machines and artillery guns to use against the biggest of opponents.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
